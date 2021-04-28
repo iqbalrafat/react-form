@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDom from 'react-dom';
+import React from "react";
+//import ReactDom from 'react-dom';
+import SearchBar from "./search-bar.component";
 
 function App() {
   return (
-    <div>
-      This is APP Component
+    <div className="ui container" style={{ marginTop: "10px" }}>
+      <SearchBar />
     </div>
   );
 }

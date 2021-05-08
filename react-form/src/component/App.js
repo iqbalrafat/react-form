@@ -13,9 +13,10 @@ class App extends Component {
     this.setState({ images: response.data.results });
   };
 
-  render() {
-    
+  render() { 
+    console.log(this.state.images)   
     return (
+      
       
       <div className="ui container" style={{ marginTop: "10px" }}>
         <SearchBar onSubmit={this.onSearchSubmit} />
